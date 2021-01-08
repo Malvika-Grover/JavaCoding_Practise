@@ -42,10 +42,19 @@ public class Hello {
 //        double kilogram = 0.45359237d * pound;
 //        System.out.println("Total kilogram is: " + kilogram);
 
-        char first = 'D';
-        char second = '\u00a9';
-        System.out.println(first);
-        System.out.println(second);
+//        char first = 'D';
+//        char second = '\u00a9';
+//        System.out.println(first);
+//        System.out.println(second);
+
+        int abc = 100;
+        if (abc == 10){
+            System.out.println("You've scored = "+ abc + " YAAYYYY !!!!");
+        }
+        else
+            System.out.println("You've scored = "+ abc + " You're failing, buckle up");
+
+
 
 
 
